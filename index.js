@@ -13,7 +13,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++){
 document.addEventListener("keydown", function(event){
   pressedLetter(event.key);
   buttonAnimation(event.key);
-})
+});
 
 // Function switching on the sound depending on input parameter
 function pressedLetter(letter){
